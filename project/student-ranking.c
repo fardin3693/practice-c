@@ -4,7 +4,7 @@ int main() {
   int mark;
 
   printf("Enter you mark: ");
-  scanf("%a\n", &mark);
+  scanf("%d", &mark);
   if (mark < 0 || mark > 100) {
     printf("How did you get this marks");
   }
