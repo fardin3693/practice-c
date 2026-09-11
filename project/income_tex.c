@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int income, tex = 0;
+  int income;
+  float tex = 0;
 
   printf("Enter income: ");
   scanf("%d", &income);
@@ -21,7 +22,7 @@ int main() {
     tex = 10000;
   }
 
-  printf("Your have to give %d$ tex for your income", tex);
+  printf("Your have to give %.2f$ tex for your income", tex);
 
   return 0;
 }
